@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void)
+{
+	float mxn, e;
+	
+	printf("Conversor de pesos mxn a euros\n"); 
+	printf ("Digite el numero que desea convertir\n");
+	scanf ("%f",&mxn);
+	
+	e= .042*mxn;
+	printf("La conversion es: %f",e);
+}
